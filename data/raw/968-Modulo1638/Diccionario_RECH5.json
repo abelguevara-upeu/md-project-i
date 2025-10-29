@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "survey_name": "ENCUESTA DEMOGRÁFICA Y DE SALUD FAMILIAR ENDES",
+    "questionnaire": "DICCIONARIO DE VARIABLES CUESTIONARIO INDIVIDUAL (RECHS)",
+    "source_file": "Diccionario - RECH5.pdf"
+  },
+  "variables": [
+    {
+      "numero": 1,
+      "variable": "ID1",
+      "descripcion": "Año",
+      "tipo": "N",
+      "longitud": 4
+    },
+    {
+      "numero": 2,
+      "variable": "HHID",
+      "descripcion": "Identificación de caso",
+      "tipo": "N",
+      "longitud": 15,
+      "obs": "Variable Llave de identificación"
+    },
+    {
+      "numero": 3,
+      "variable": "HA0",
+      "descripcion": "Número de orden en hogar",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "1:24"
+    },
+    {
+      "numero": 4,
+      "variable": "HA1",
+      "descripcion": "Edad de la mujer en años",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "12:49"
+    },
+    {
+      "numero": 5,
+      "variable": "HA2",
+      "descripcion": "Peso en kilogramos (1 decimal)",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "15:500"
+    },
+    {
+      "numero": 6,
+      "variable": "HA3",
+      "descripcion": "Talla en centímetros (1 decimal)",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "400:1500"
+    },
+    {
+      "numero": 7,
+      "variable": "HA4",
+      "descripcion": "Talla/Edad percentil en que se encuentra",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "0:9998",
+      "alternativas": [
+        {"valor": 9998, "descripcion": "Casos marcados"}
+      ]
+    },
+    {
+      "numero": 8,
+      "variable": "HA5",
+      "descripcion": "Talla/Edad Desviación Estándar",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "0:9998",
+      "alternativas": [
+        {"valor": 9998, "descripcion": "Casos marcados"}
+      ]
+    },
+    {
+      "numero": 9,
+      "variable": "HA6",
+      "descripcion": "Talla/Edad porcentaje respecto a la mediana de referencia",
+      "tipo": "N",
+      "longitud": 5,
+      "rango": "0:99998",
+      "alternativas": [
+        {"valor": 9996, "descripcion": "Casos marcados"}
+      ]
+    },
+    {
+      "numero": 10,
+      "variable": "HA11",
+      "descripcion": "Peso/Talla desvio estándar (DHS)",
+      "tipo": "N",
+      "longitud": 5,
+      "rango": "0:9998",
+      "alternativas": [
+        {"valor": 9996, "descripcion": "Casos marcados"}
+      ]
+    },
+    {
+      "numero": 11,
+      "variable": "HA12",
+      "descripcion": "Peso/Talla Porcentaje respecto a la mediana (DHS)",
+      "tipo": "N",
+      "longitud": 5,
+      "rango": "0:99998",
+      "alternativas": [
+        {"valor": 9996, "descripcion": "Casos marcados"}
+      ]
+    },
+    {
+      "numero": 12,
+      "variable": "HA12A",
+      "descripcion": "Peso/Talla Porcentaje respecto a la mediana (Foggarty)",
+      "tipo": "N",
+      "longitud": 5,
+      "rango": "0:99998",
+      "alternativas": [
+        {"valor": 9996, "descripcion": "Casos marcados"}
+      ]
+    },
+    {
+      "numero": 13,
+      "variable": "HA12B",
+      "descripcion": "Peso/Talla Porcentaje respecto a la mediana (OMS)",
+      "tipo": "N",
+      "longitud": 5,
+      "rango": "0:99998",
+      "alternativas": [
+        {"valor": 9996, "descripcion": "Casos marcados"}
+      ]
+    },
+    {
+      "numero": 14,
+      "variable": "HA13",
+      "descripcion": "Resultado de medición de la entrevistada",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0, 3-6",
+      "alternativas": [
+        {"valor": 0, "descripcion": "Medida"},
+        {"valor": 3, "descripcion": "No presente"},
+        {"valor": 4, "descripcion": "Rechazó"},
+        {"valor": 5, "descripcion": "Parcialmente medida"},
+        {"valor": 6, "descripcion": "Otro"}
+      ]
+    },
+    {
+      "numero": 15,
+      "variable": "HA32",
+      "descripcion": "Fecha de nacimiento (cmc)",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "800:1300"
+    },
+    {
+      "numero": 16,
+      "variable": "HA33",
+      "descripcion": "Fecha de información completa",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:8",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Mes y año"},
+        {"valor": 2, "descripcion": "Mes y edad"},
+        {"valor": 3, "descripcion": "Año y edad"},
+        {"valor": 4, "descripcion": "Año"},
+        {"valor": 6, "descripcion": "Edad"},
+        {"valor": 7, "descripcion": "Mes"},
+        {"valor": 8, "descripcion": "Ninguno"}
+      ]
+    },
+    {
+      "numero": 17,
+      "variable": "HA35",
+      "descripcion": "En las últimas 24 horas cuantos cigarrillos fumó Ud.",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "0:25",
+      "alternativas": [
+        {"valor": 0, "descripcion": "No fuma"}
+      ]
+    },
+    {
+      "numero": 18,
+      "variable": "HA40",
+      "descripcion": "Índice de Masa Corporal para la entrevistada",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "1200:6000, 9998",
+      "alternativas": [
+        {"valor": 9998, "descripcion": "Casos marcados"}
+      ]
+    },
+    {
+      "numero": 19,
+      "variable": "HA41",
+      "descripcion": "Índice de Rohrer para la entrevistada",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "800:4500, 9998",
+      "alternativas": [
+        {"valor": 9998, "descripcion": "Casos marcados"}
+      ]
+    },
+    {
+      "numero": 20,
+      "variable": "HA50",
+      "descripcion": "Grupo de mujeres de 12 a 49 años de edad",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:2",
+      "alternativas": [
+        {"valor": 1, "descripcion": "De 12 a 17 años de edad"},
+        {"valor": 2, "descripcion": "De 18 a 49 años de edad"}
+      ]
+    },
+    {
+      "numero": 21,
+      "variable": "HA51",
+      "descripcion": "Número de orden del padre o responsable",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "0:15",
+      "alternativas": [
+        {"valor": 0, "descripcion": "No es miembro del hogar"}
+      ]
+    },
+    {
+      "numero": 22,
+      "variable": "HA52",
+      "descripcion": "Leyó la declaración de consentimiento para la medición de hemoglobina",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:2",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Acepto"},
+        {"valor": 2, "descripcion": "Padre/Otro responsable, rechazó"}
+      ]
+    },
+    {
+      "numero": 23,
+      "variable": "HA53",
+      "descripcion": "Nivel de hemoglobina (g/dl - 1 decimal)",
+      "tipo": "N",
+      "longitud": 3,
+      "rango": "50:250"
+    },
+    {
+      "numero": 24,
+      "variable": "HA54",
+      "descripcion": "Actualmente embarazada",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:1",
+      "alternativas": [
+        {"valor": 0, "descripcion": "No/No sé"},
+        {"valor": 1, "descripcion": "Sí"}
+      ]
+    },
+    {
+      "numero": 25,
+      "variable": "HA55",
+      "descripcion": "Resultado de la medición (hemoglobina)",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0, 3:6",
+      "alternativas": [
+        {"valor": 0, "descripcion": "Medida"},
+        {"valor": 3, "descripcion": "No presente"},
+        {"valor": 4, "descripcion": "Rechazó"},
+        {"valor": 5, "descripcion": "Parcialmente medida"},
+        {"valor": 6, "descripcion": "Otro"}
+      ]
+    },
+    {
+      "numero": 26,
+      "variable": "HA56",
+      "descripcion": "Nivel de hemoglobina ajustado por la altitud (g/dl - 1 decimal) RM 363-2022-MINSA",
+      "tipo": "N",
+      "longitud": 3,
+      "rango": "40:210"
+    },
+    {
+      "numero": 27,
+      "variable": "HA56A",
+      "descripcion": "Nivel de hemoglobina ajustada por altitud en g/dl - 1 decimal NUEVA DIRECTRIZ OMS",
+      "tipo": "N",
+      "longitud": 3,
+      "rango": "40:210"
+    },
+    {
+      "numero": 28,
+      "variable": "HA57",
+      "descripcion": "Nivel de anemia RM 363-2022-MINSA",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:4",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Grave"},
+        {"valor": 2, "descripcion": "Moderado"},
+        {"valor": 3, "descripcion": "Leve"},
+        {"valor": 4, "descripcion": "Sin anemia"}
+      ]
+    },
+    {
+      "numero": 29,
+      "variable": "HA57A",
+      "descripcion": "Nivel de Anemia NUEVA DIRECTRIZ OMS 2024/RM 251-2024-MINSA",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:4",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Grave"},
+        {"valor": 2, "descripcion": "Moderado"},
+        {"valor": 3, "descripcion": "Leve"},
+        {"valor": 4, "descripcion": "Sin anemia"}
+      ]
+    },
+    {
+      "numero": 30,
+      "variable": "HA58",
+      "descripcion": "Está de acuerdo con enviar los datos a un especialista",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:1",
+      "alternativas": [
+        {"valor": 0, "descripcion": "No"},
+        {"valor": 1, "descripcion": "Sí"}
+      ]
+    },
+    {
+      "numero": 31,
+      "variable": "HA60",
+      "descripcion": "Estado civil",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:2",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Nunca en unión"},
+        {"valor": 2, "descripcion": "Otro"}
+      ]
+    },
+    {
+      "numero": 32,
+      "variable": "HA61",
+      "descripcion": "Lea la declaración de consentimiento (VIH)",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:4",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Acepto"},
+        {"valor": 2, "descripcion": "Padre/Otro responsable rechazó"},
+        {"valor": 3, "descripcion": "Entrevistada rechazo"},
+        {"valor": 4, "descripcion": "Muestra no probada/perdida/no suficiente DBS"}
+      ]
+    },
+    {
+      "numero": 33,
+      "variable": "HA62",
+      "descripcion": "Número de identificación de la muestra de sangre",
+      "tipo": "A",
+      "longitud": 5
+    },
+    {
+      "numero": 34,
+      "variable": "HA63",
+      "descripcion": "Resultado de la medición (VIH)",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:6",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Muestra de sangre tomada"},
+        {"valor": 2, "descripcion": "No presente"},
+        {"valor": 3, "descripcion": "Rechazo"},
+        {"valor": 4, "descripcion": "Muestra no probable/dañada"},
+        {"valor": 5, "descripcion": "No hay suficiente DBS para completar el protocolo"},
+        {"valor": 6, "descripcion": "Otro"}
+      ]
+    },
+    {
+      "numero": 35,
+      "variable": "HA64",
+      "descripcion": "Consentimiento para pruebas adicionales",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:3",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Acepto"},
+        {"valor": 2, "descripcion": "Padres/Otro responsable rechazó"},
+        {"valor": 3, "descripcion": "Entrevistada rechazo"}
+      ]
+    },
+    {
+      "numero": 36,
+      "variable": "HA65",
+      "descripcion": "Resultado de la entrevista individual a la mujer",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:7",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Completa"},
+        {"valor": 2, "descripcion": "Ausente"},
+        {"valor": 3, "descripcion": "Aplazada"},
+        {"valor": 4, "descripcion": "Rechazada"},
+        {"valor": 5, "descripcion": "Incompleta"},
+        {"valor": 6, "descripcion": "Incapacitada"},
+        {"valor": 7, "descripcion": "Otro"}
+      ]
+    },
+    {
+      "numero": 37,
+      "variable": "HA66",
+      "descripcion": "El nivel educativo más alto aprobado de la mujer",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:3,8",
+      "alternativas": [
+        {"valor": 0, "descripcion": "Sin educación"},
+        {"valor": 1, "descripcion": "Primaria"},
+        {"valor": 2, "descripcion": "Secundaria"},
+        {"valor": 3, "descripcion": "Superior"},
+        {"valor": 8, "descripcion": "No sabe"}
+      ]
+    },
+    {
+      "numero": 38,
+      "variable": "HA67",
+      "descripcion": "El año más alto de educación de la mujer",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "0:6,98",
+      "alternativas": [
+        {"valor": 98, "descripcion": "No sabe"}
+      ]
+    },
+    {
+      "numero": 39,
+      "variable": "HA68",
+      "descripcion": "Nivel educativo más alto (CS para el informe preliminar y final)",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:3,8",
+      "alternativas": [
+        {"valor": 0, "descripcion": "Sin educación"},
+        {"valor": 1, "descripcion": "Primaria"},
+        {"valor": 2, "descripcion": "Secundaria"},
+        {"valor": 3, "descripcion": "Superior"},
+        {"valor": 8, "descripcion": "No sabe"}
+      ]
+    },
+    {
+      "numero": 40,
+      "variable": "HA69",
+      "descripcion": "Peso del VIH (6 decimales)",
+      "tipo": "N",
+      "longitud": 8
+    }
+  ]
+}

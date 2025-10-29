@@ -1,0 +1,414 @@
+{
+  "metadata": {
+    "survey_name": "ENCUESTA DEMOGRÁFICA Y DE SALUD FAMILIAR ENDES",
+    "questionnaire": "DICCIONARIO DE VARIABLES CUESTIONARIO DEL HOGAR (RECH0)",
+    "source_file": "Diccionario - RECH0.pdf"
+  },
+  "variables": [
+    {
+      "numero": 1,
+      "variable": "ID1",
+      "descripcion": "Año",
+      "tipo": "N",
+      "longitud": 4
+    },
+    {
+      "numero": 2,
+      "variable": "HHID",
+      "descripcion": "Identificacion Cuestionario del Hogar",
+      "tipo": "A",
+      "longitud": 15,
+      "obs": "Variable (Llave de identificación)"
+    },
+    {
+      "numero": 3,
+      "variable": "HV000",
+      "descripcion": "Código del país",
+      "tipo": "A",
+      "longitud": 3,
+      "valores": "PE6"
+    },
+    {
+      "numero": 4,
+      "variable": "HV001",
+      "descripcion": "Conglomerado",
+      "tipo": "N",
+      "longitud": 8,
+      "rango": "1:3175"
+    },
+    {
+      "numero": 5,
+      "variable": "HV002",
+      "descripcion": "Vivienda",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "1:9998"
+    },
+    {
+      "numero": 6,
+      "variable": "HV002A",
+      "descripcion": "Hogar",
+      "tipo": "N",
+      "longitud": 3,
+      "rango": "1:5"
+    },
+    {
+      "numero": 7,
+      "variable": "HV003",
+      "descripcion": "Número de orden del Informante del cuestionario del hogar",
+      "tipo": "N",
+      "longitud": 3,
+      "rango": "1:15"
+    },
+    {
+      "numero": 8,
+      "variable": "HV004",
+      "descripcion": "Unidad última de muestreo",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "1:3175"
+    },
+    {
+      "numero": 9,
+      "variable": "HV007",
+      "descripcion": "Año de entrevista",
+      "tipo": "N",
+      "longitud": 4
+    },
+    {
+      "numero": 10,
+      "variable": "HV008",
+      "descripcion": "Fecha de entrevista meses (CMC)",
+      "tipo": "N",
+      "longitud": 4
+    },
+    {
+      "numero": 11,
+      "variable": "HV009",
+      "descripcion": "Total de personas en el hogar",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "1:25"
+    },
+    {
+      "numero": 12,
+      "variable": "HV010",
+      "descripcion": "Número de mujeres elegibles para entrevista individual",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "1:25"
+    },
+    {
+      "numero": 13,
+      "variable": "HV011",
+      "descripcion": "Número de hombres elegibles por hogar",
+      "tipo": "N",
+      "longitud": 2
+    },
+    {
+      "numero": 14,
+      "variable": "HV012",
+      "descripcion": "Número de miembros de jure (residentes habituales)",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "0:25"
+    },
+    {
+      "numero": 15,
+      "variable": "HV013",
+      "descripcion": "Número de miembros de facto (personas que durmieron la noche anterior)",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "0:25"
+    },
+    {
+      "numero": 16,
+      "variable": "HV014",
+      "descripcion": "Número de niños menores de 5 años",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "0:24"
+    },
+    {
+      "numero": 17,
+      "variable": "HV015",
+      "descripcion": "Resultado de la entrevista en el hogar",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "1:9",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Completo"},
+        {"valor": 2, "descripcion": "Hogar presente pero entrevistado ausente"},
+        {"valor": 3, "descripcion": "Hogar ausente"},
+        {"valor": 4, "descripcion": "Aplazada"},
+        {"valor": 5, "descripcion": "Rechazada"},
+        {"valor": 6, "descripcion": "Vivienda desocupada o no es vivienda"},
+        {"valor": 7, "descripcion": "Vivienda destruida"},
+        {"valor": 8, "descripcion": "Vivienda no encontrada"},
+        {"valor": 9, "descripcion": "Otro"}
+      ]
+    },
+    {
+      "numero": 18,
+      "variable": "HV017",
+      "descripcion": "Número de visitas",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:9"
+    },
+    {
+      "numero": 19,
+      "variable": "HV020",
+      "descripcion": "Muestra de alguna vez en union",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:1",
+      "alternativas": [
+        {"valor": 0, "descripcion": "Muestra todas las mujeres"},
+        {"valor": 1, "descripcion": "Muestra alguna vez casado"}
+      ]
+    },
+    {
+      "numero": 20,
+      "variable": "HV021",
+      "descripcion": "Unidad de muestreo primario (conglomerado)",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "1:3175"
+    },
+    {
+      "numero": 21,
+      "variable": "HV023",
+      "descripcion": "Dominio",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "1:25",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Amazonas"},
+        {"valor": 2, "descripcion": "Ancash"},
+        {"valor": 3, "descripcion": "Apurimac"},
+        {"valor": 4, "descripcion": "Arequipa"},
+        {"valor": 5, "descripcion": "Ayacucho"},
+        {"valor": 6, "descripcion": "Cajamarca"},
+        {"valor": 7, "descripcion": "Callao"},
+        {"valor": 8, "descripcion": "Cusco"},
+        {"valor": 9, "descripcion": "Huancavelica"},
+        {"valor": 10, "descripcion": "Huanuco"},
+        {"valor": 11, "descripcion": "Ica"},
+        {"valor": 12, "descripcion": "Junin"},
+        {"valor": 13, "descripcion": "La Libertad"},
+        {"valor": 14, "descripcion": "Lambayeque"},
+        {"valor": 15, "descripcion": "Lima"},
+        {"valor": 16, "descripcion": "Loreto"},
+        {"valor": 17, "descripcion": "Madre de Dios"},
+        {"valor": 18, "descripcion": "Moquegua"},
+        {"valor": 19, "descripcion": "Pasco"},
+        {"valor": 20, "descripcion": "Piura"},
+        {"valor": 21, "descripcion": "Puno"},
+        {"valor": 22, "descripcion": "San Martin"},
+        {"valor": 23, "descripcion": "Tacna"},
+        {"valor": 24, "descripcion": "Tumbes"},
+        {"valor": 25, "descripcion": "Ucayali"}
+      ]
+    },
+    {
+      "numero": 22,
+      "variable": "HV024",
+      "descripcion": "Región",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:2"
+    },
+    {
+      "numero": 23,
+      "variable": "HV025",
+      "descripcion": "Área de residencia",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "1:2",
+      "alternativas": [
+        {"valor": 1, "descripcion": "Urbano"},
+        {"valor": 2, "descripcion": "Rural"}
+      ]
+    },
+    {
+      "numero": 24,
+      "variable": "HV026",
+      "descripcion": "Lugar de residencia",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:3",
+      "alternativas": [
+        {"valor": 0, "descripcion": "Capital, gran ciudad"},
+        {"valor": 1, "descripcion": "Pequeña ciudad"},
+        {"valor": 2, "descripcion": "Pueblo"},
+        {"valor": 3, "descripcion": "Campo"}
+      ]
+    },
+    {
+      "numero": 25,
+      "variable": "HV027",
+      "descripcion": "Selección para hombre/esposo",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:2",
+      "alternativas": [
+        {"valor": 0, "descripcion": "No seleccionado"},
+        {"valor": 1, "descripcion": "Encuesta de hombres"},
+        {"valor": 2, "descripcion": "Encuesta del esposo"}
+      ]
+    },
+    {
+      "numero": 26,
+      "variable": "HV028",
+      "descripcion": "Peso de muestra masculino",
+      "tipo": "N",
+      "longitud": 8
+    },
+    {
+      "numero": 27,
+      "variable": "HV030",
+      "descripcion": "Supervisor de campo",
+      "tipo": "N",
+      "longitud": 3
+    },
+    {
+      "numero": 28,
+      "variable": "HV031",
+      "descripcion": "Editor de campo",
+      "tipo": "N",
+      "longitud": 3
+    },
+    {
+      "numero": 29,
+      "variable": "HV032",
+      "descripcion": "Editor de la oficina",
+      "tipo": "N",
+      "longitud": 2
+    },
+    {
+      "numero": 30,
+      "variable": "HV033",
+      "descripcion": "Ultimate area selection prob.",
+      "tipo": "N",
+      "longitud": 8
+    },
+    {
+      "numero": 31,
+      "variable": "HV035",
+      "descripcion": "Número de niños elegibles para altura y peso",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "0:24"
+    },
+    {
+      "numero": 32,
+      "variable": "HV040",
+      "descripcion": "Altitud del conglomerado en metros",
+      "tipo": "N",
+      "longitud": 4,
+      "rango": "-24:5100"
+    },
+    {
+      "numero": 33,
+      "variable": "HV041",
+      "descripcion": "Número de mujeres con medición de peso y talla",
+      "tipo": "N",
+      "longitud": 2,
+      "rango": "0:24"
+    },
+    {
+      "numero": 34,
+      "variable": "HV042",
+      "descripcion": "Selección para medición de hemoglobina",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:1",
+      "alternativas": [
+        {"valor": 0, "descripcion": "No seleccionado"},
+        {"valor": 1, "descripcion": "Seleccionado"}
+      ]
+    },
+    {
+      "numero": 35,
+      "variable": "HV043",
+      "descripcion": "Hogares seleccionados para el módulo de mujeres de estado",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:1",
+      "alternativas": [
+        {"valor": 0, "descripcion": "Hogar no seleccionado"},
+        {"valor": 1, "descripcion": "Hogar seleccionado"}
+      ]
+    },
+    {
+      "numero": 36,
+      "variable": "HV044",
+      "descripcion": "Selección para el módulo de violencia familiar",
+      "tipo": "N",
+      "longitud": 1,
+      "rango": "0:1",
+      "alternativas": [
+        {"valor": 0, "descripcion": "Hogar no seleccionado"},
+        {"valor": 1, "descripcion": "Hogar seleccionado"}
+      ]
+    },
+    {
+      "numero": 37,
+      "variable": "UBIGEO",
+      "descripcion": "Código de Ubicación Gegráfica",
+      "tipo": "A",
+      "longitud": 6
+    },
+    {
+      "numero": 38,
+      "variable": "HV005",
+      "descripcion": "Factor de ponderación",
+      "tipo": "N",
+      "longitud": 8
+    },
+    {
+      "numero": 39,
+      "variable": "HV022",
+      "descripcion": "Estrato",
+      "tipo": "N",
+      "longitud": 8,
+      "rango": "1:250"
+    },
+    {
+      "numero": 40,
+      "variable": "NCONGLOME1",
+      "descripcion": "Número de Conglomerado (proveniente del marco)",
+      "tipo": "A",
+      "longitud": 7
+    },
+    {
+      "numero": 41,
+      "variable": "CODCCPP",
+      "descripcion": "Codigo de Centro Poblado",
+      "tipo": "A",
+      "longitud": 4
+    },
+    {
+      "numero": 42,
+      "variable": "NOMCCPP",
+      "descripcion": "Nombre del Centro Poblado",
+      "tipo": "A",
+      "longitud": 49
+    },
+    {
+      "numero": 43,
+      "variable": "LONGITUDX",
+      "descripcion": "Longitud del conglomerado",
+      "tipo": "N",
+      "longitud": 8
+    },
+    {
+      "numero": 44,
+      "variable": "LATITUDY",
+      "descripcion": "Latitud del conglomerado",
+      "tipo": "N",
+      "longitud": 8
+    }
+  ]
+}

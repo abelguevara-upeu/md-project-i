@@ -1,0 +1,6 @@
+# Ignores
+*.log
+*.tmp
+.DS_Store
+.venv/
+__pycache__/
