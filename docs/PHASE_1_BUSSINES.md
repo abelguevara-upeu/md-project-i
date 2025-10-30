@@ -99,3 +99,15 @@ flowchart TD
     class F fase6;
     class C_Mod revision;
 ```
+## 3. Evaluación de la Situación
+
+### Recursos y Activos Clave
+
+Para definir los objetivos técnicos del proyecto, se realizó un análisis del estado del arte utilizando Scopus AI. El informe resultante (`Medición de la desnutrición crónica infantil.pdf`) se considera un recurso fundamental.
+
+Los hallazgos clave de este informe que guían el proyecto son:
+- **Definición del Target:** La desnutrición crónica (stunting) se mide usando el puntaje Z de Talla para la Edad (HAZ) de la OMS, con un punto de corte de `HAZ < -2`.
+- **Predictores Clave (Features):** El informe identificó como predictores más fuertes:
+    - **Maternos:** Estatura y Nivel Educativo.
+    - **Niño:** Edad y Peso al Nacer.
+    - **Hogar:** Riqueza y Saneamiento/Agua.
