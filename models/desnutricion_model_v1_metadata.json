@@ -1,0 +1,5 @@
+{
+    "model_name": "desnutricion_model_v1",
+    "f1_score_test (Clase 1)": 0.4008056394763343,
+    "optimal_threshold": 0.6117061235814257
+}
