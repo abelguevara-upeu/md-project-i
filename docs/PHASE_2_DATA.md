@@ -169,35 +169,3 @@ Estos módulos no contienen información sobre nuestro objetivo: **Estado Nutric
   * **Módulos 1635, 1636, 1637, 1639:**
       * *Contenido:* Violencia, VIH, Disciplina, etc. (`RE516171`, `RE758081`, `REC84DV`, `REC93DVdisciplina`).
       * *Decisión:* Aunque son factores importantes en el desarrollo infantil, están fuera del alcance de un MVP rápido enfocado en predictores estructurales, biológicos y socioeconómicos.
-
-```mermaid
-graph TD
-    subgraph "Situación Problemática de Coca-Cola"
-        CC[("Coca-Cola (Empresa)")]
-
-        subgraph "Presiones Externas"
-            COMP("Competencia Fuerte ⚔️
-(Bebidas Nacionales p.ej. Inca Kola)")
-            MERCADO("Mercado Bursátil 📉
-(Bajos indicadores)")
-        end
-
-        subgraph "Problemas de Demanda"
-            CONS_SA("Consumidores Sudamérica
-(Demanda estacional)")
-            CONS_US("Consumidores EEUU
-(Ventas estancadas/tope)")
-        end
-
-        COMP --"Quita participación de mercado"--> CC
-        MERCADO --"Genera desconfianza"--> CC
-        CC --"Ventas no crecen"--> CONS_US
-        CC --"Ventas variables"--> CONS_SA
-    end
-
-    style CC fill:#e63946,color:#fff,stroke-width:2px,stroke:#a8dadc
-    style COMP fill:#f1faee,stroke-width:2px,stroke:#1d3557
-    style MERCADO fill:#f1faee,stroke-width:2px,stroke:#1d3557
-    style CONS_SA fill:#a8dadc,stroke-width:2px,stroke:#1d3557
-    style CONS_US fill:#a8dadc,stroke-width:2px,stroke:#1d3557
-```
