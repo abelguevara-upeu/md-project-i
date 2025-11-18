@@ -1,0 +1,2528 @@
+{
+  "diccionario_variables": [
+    {
+      "numero_fila": "2",
+      "variable": "CASEID",
+      "descripcion": "Identificación Cuestionario Individual",
+      "tipo_caracter": "A",
+      "longitud": "18",
+      "rango": null,
+      "alternativas": null,
+      "observacion": "Variable (Llave de identificación)"
+    },
+    {
+      "numero_fila": "3",
+      "variable": "HHID",
+      "descripcion": "Identificación Cuestionario del Hogar",
+      "tipo_caracter": "A",
+      "longitud": "15",
+      "rango": null,
+      "alternativas": null,
+      "observacion": "Variable (Llave de identificación)"
+    },
+    {
+      "numero_fila": "4",
+      "variable": "V000",
+      "descripcion": "Código y fase del pais",
+      "tipo_caracter": "A",
+      "longitud": "3",
+      "rango": "PE6",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "5",
+      "variable": "V001",
+      "descripcion": "Conglomerado",
+      "tipo_caracter": "N",
+      "longitud": "8",
+      "rango": "1:3175",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "6",
+      "variable": "V002",
+      "descripcion": "Nümero de vivienda",
+      "tipo_caracter": "N",
+      "longitud": "4",
+      "rango": "1:9998",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "7",
+      "variable": "V003",
+      "descripcion": "Número de linea de entrevistada",
+      "tipo_caracter": "N",
+      "longitud": "3",
+      "rango": "1:15",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "8",
+      "variable": "V004",
+      "descripcion": "Unidad de área final",
+      "tipo_caracter": "N",
+      "longitud": "4",
+      "rango": "1:3175",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "9",
+      "variable": "V007",
+      "descripcion": "Año de la entrevista",
+      "tipo_caracter": "N",
+      "longitud": "4",
+      "rango": "1986-2021",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "10",
+      "variable": "V008",
+      "descripcion": "Fecha de la entrevista, Codificación centenarna de meses (CMC)",
+      "tipo_caracter": "N",
+      "longitud": "4",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "11",
+      "variable": "Q105DD",
+      "descripcion": "Dia de nacimeinto de la entrevistada",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": ":131,98",
+      "alternativas": [
+        {
+          "valor": "98",
+          "descripcion": "No sabe el dia"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "12",
+      "variable": "V009",
+      "descripcion": "Mes de nacimiento de la entrevistada",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": "1-12",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "13",
+      "variable": "V010",
+      "descripcion": "Año de nacimiento de la entrevistada",
+      "tipo_caracter": "N",
+      "longitud": "4",
+      "rango": "1968-2002",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "14",
+      "variable": "V011",
+      "descripcion": "Fecha de nacimiento, Codificación centenaria de meses (CMC)",
+      "tipo_caracter": "N",
+      "longitud": "4",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "15",
+      "variable": "V012",
+      "descripcion": "Edad actual entrevistada",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "12:49",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "16",
+      "variable": "V013",
+      "descripcion": "Edad actual por grupos de 5 años",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "17",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "De 12 a 14 años de edad"
+        },
+        {
+          "valor": "1",
+          "descripcion": "De 15 a 19 años de edad"
+        },
+        {
+          "valor": "2",
+          "descripcion": "De 20 a 24 años de edad"
+        },
+        {
+          "valor": "3",
+          "descripcion": "De 25 a 29 años de edad"
+        },
+        {
+          "valor": "4",
+          "descripcion": "De 30 a 34 años de edad"
+        },
+        {
+          "valor": "5",
+          "descripcion": "De 35 a 39 años de edad"
+        },
+        {
+          "valor": "6",
+          "descripcion": "De 40 a 44 años de edad"
+        },
+        {
+          "valor": "7",
+          "descripcion": "De 45 a 49 años de edad"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "17",
+      "variable": "V014",
+      "descripcion": "Integridad de la información para la fecha de nacimiento",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": null,
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Mes y año"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Mes y edad año imputado"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Año y edad mes imputado"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Año y edad año ignorado supera el año de entrevista"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Año-edad y mes imputados"
+        },
+        {
+          "valor": "6",
+          "descripcion": "Edad-año y mes imputados"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Mes edad y año imputados"
+        },
+        {
+          "valor": "8",
+          "descripcion": "Ninguno edad, mes y año imputados"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "18",
+      "variable": "V015",
+      "descripcion": "Resultado entrevista individual",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": "1:7",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Completa"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Ausente"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Aplazada"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Rechazada"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Incompleta"
+        },
+        {
+          "valor": "6",
+          "descripcion": "Discapacitada"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Otra"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "19",
+      "variable": "V017",
+      "descripcion": "Inicio del calendario, Codificación centenaria de mesesi CMC",
+      "tipo_caracter": "N",
+      "longitud": "4",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "20",
+      "variable": "V018",
+      "descripcion": "Columna del mes de la entrevista",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0.918:",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Sin calendano"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "21",
+      "variable": "V019",
+      "descripcion": "Duración del calendario",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": "0,63:72",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Sin calendario"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "22",
+      "variable": "V019A",
+      "descripcion": "Número de columnas de calendario",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0.4",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "23",
+      "variable": "V020",
+      "descripcion": "Muestra alguna vez casada",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Toda la mujer muestra"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Alguna muestra casada"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "24",
+      "variable": "V021",
+      "descripcion": "Unidad de muestreo primarno conglomerado.",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": "1:3175",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "25",
+      "variable": "V023",
+      "descripcion": "Dominio de ejemplo - Departamento",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "1-25",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Amazonas"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Ancash"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Apurimac"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Arequipa"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Ayacucho"
+        },
+        {
+          "valor": "6",
+          "descripcion": "Cajamarca"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Callao"
+        },
+        {
+          "valor": "8",
+          "descripcion": "Cusco"
+        },
+        {
+          "valor": "9",
+          "descripcion": "Huancavelica"
+        },
+        {
+          "valor": "10",
+          "descripcion": "Huanuco"
+        },
+        {
+          "valor": "11",
+          "descripcion": "Ica"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Junin"
+        },
+        {
+          "valor": "13",
+          "descripcion": "La Libertad"
+        },
+        {
+          "valor": "14",
+          "descripcion": "Lambayeque"
+        },
+        {
+          "valor": "15",
+          "descripcion": "Lima"
+        },
+        {
+          "valor": "16",
+          "descripcion": "Loreto"
+        },
+        {
+          "valor": "17",
+          "descripcion": "Madre de Dios"
+        },
+        {
+          "valor": "18",
+          "descripcion": "Moquegua"
+        },
+        {
+          "valor": "19",
+          "descripcion": "Pasco"
+        },
+        {
+          "valor": "20",
+          "descripcion": "Piura"
+        },
+        {
+          "valor": "21",
+          "descripcion": "Puno"
+        },
+        {
+          "valor": "22",
+          "descripcion": "San Martin"
+        },
+        {
+          "valor": "23",
+          "descripcion": "Tacna"
+        },
+        {
+          "valor": "24",
+          "descripcion": "Tumbes"
+        },
+        {
+          "valor": "25",
+          "descripcion": "Ucayali"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "26",
+      "variable": "V024",
+      "descripcion": "Región",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "1:25",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Amazonas"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Ancash"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Apurimac"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Arequipa"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Ayacucho"
+        },
+        {
+          "valor": "6",
+          "descripcion": "Cajamarca"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Callao"
+        },
+        {
+          "valor": "8",
+          "descripcion": "Cusco"
+        },
+        {
+          "valor": "9",
+          "descripcion": "Huancavelica"
+        },
+        {
+          "valor": "10",
+          "descripcion": "Huanuco"
+        },
+        {
+          "valor": "11",
+          "descripcion": "Ica"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Junin"
+        },
+        {
+          "valor": "13",
+          "descripcion": "La Libertad"
+        },
+        {
+          "valor": "14",
+          "descripcion": "Lambayeque"
+        },
+        {
+          "valor": "15",
+          "descripcion": "Lima"
+        },
+        {
+          "valor": "16",
+          "descripcion": "Loreto"
+        },
+        {
+          "valor": "17",
+          "descripcion": "Madre de Dios"
+        },
+        {
+          "valor": "18",
+          "descripcion": "Moquegua"
+        },
+        {
+          "valor": "19",
+          "descripcion": "Pasco"
+        },
+        {
+          "valor": "20",
+          "descripcion": "Piura"
+        },
+        {
+          "valor": "21",
+          "descripcion": "Puno"
+        },
+        {
+          "valor": "22",
+          "descripcion": "San Martin"
+        },
+        {
+          "valor": "23",
+          "descripcion": "Tacna"
+        },
+        {
+          "valor": "24",
+          "descripcion": "Tumbes"
+        },
+        {
+          "valor": "25",
+          "descripcion": "Ucayali"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "27",
+      "variable": "V025",
+      "descripcion": "Tipo de lugar de residencia",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Urbano"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Rural"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "28",
+      "variable": "V026",
+      "descripcion": "El lugar de residencia en el que se entrevisto - De Facto",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:3",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Capital, gran ciudad"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Pequeña ciudad"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Pueblo"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Campo"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "29",
+      "variable": "V027",
+      "descripcion": "Número de visitas",
+      "tipo_caracter": "N",
+      "longitud": "3",
+      "rango": ":19",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "30",
+      "variable": "V028",
+      "descripcion": "Identificación del entrevistador",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0:62",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "31",
+      "variable": "V029",
+      "descripcion": "Identificador del digitador",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0:11",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "32",
+      "variable": "V030",
+      "descripcion": "Supervisor de campo",
+      "tipo_caracter": "N",
+      "longitud": "3",
+      "rango": "0:62",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "33",
+      "variable": "V031",
+      "descripcion": "Editor de campo",
+      "tipo_caracter": "N",
+      "longitud": "3",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "34",
+      "variable": "V032",
+      "descripcion": "Editor de la oficina",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "35",
+      "variable": "V033",
+      "descripcion": "Selección final del área de probabilidad",
+      "tipo_caracter": "N",
+      "longitud": "8",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "36",
+      "variable": "V034",
+      "descripcion": "Número de orden del esposo",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0:16",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "El esposo no está en el hogar"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "37",
+      "variable": "V040",
+      "descripcion": "Altitud del conglomerado en metros",
+      "tipo_caracter": "N",
+      "longitud": "4",
+      "rango": "0:5500",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "38",
+      "variable": "V042",
+      "descripcion": "Selección de hogar para hemoglobina",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No seleccionado"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Seleccionado"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "39",
+      "variable": "V043",
+      "descripcion": "Selección para módulo de estatus de mujeres",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": "0:1",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Mujer No seleccionada"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Mujer seleccionada"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "40",
+      "variable": "V044",
+      "descripcion": "Selección para modulo de violencia domestica",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:3",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Mujer No seleccionada"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Mujer seleccionada y entrevistada"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Mujer seleccionada, pero la privacidad no es posible"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Mujer seleccionada, pero no entrevistada"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "41",
+      "variable": "V101",
+      "descripcion": "Región",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "1:25",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Amazonas"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Ancash"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Apurimac"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Arequipa"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Ayacucho"
+        },
+        {
+          "valor": "6",
+          "descripcion": "Cajamarca"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Callao"
+        },
+        {
+          "valor": "8",
+          "descripcion": "Cusco"
+        },
+        {
+          "valor": "9",
+          "descripcion": "Huancavelica"
+        },
+        {
+          "valor": "10",
+          "descripcion": "Huanuco"
+        },
+        {
+          "valor": "11",
+          "descripcion": "Ica"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Junin"
+        },
+        {
+          "valor": "13",
+          "descripcion": "La Libertad"
+        },
+        {
+          "valor": "14",
+          "descripcion": "Lambayeque"
+        },
+        {
+          "valor": "15",
+          "descripcion": "Lima"
+        },
+        {
+          "valor": "16",
+          "descripcion": "Loreto"
+        },
+        {
+          "valor": "17",
+          "descripcion": "Madre de Dios"
+        },
+        {
+          "valor": "18",
+          "descripcion": "Moquegua"
+        },
+        {
+          "valor": "19",
+          "descripcion": "Pasco"
+        },
+        {
+          "valor": "20",
+          "descripcion": "Piura"
+        },
+        {
+          "valor": "21",
+          "descripcion": "Puno"
+        },
+        {
+          "valor": "22",
+          "descripcion": "San Martin"
+        },
+        {
+          "valor": "23",
+          "descripcion": "Tacna"
+        },
+        {
+          "valor": "24",
+          "descripcion": "Tumbes"
+        },
+        {
+          "valor": "25",
+          "descripcion": "Ucayali"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "42",
+      "variable": "V102",
+      "descripcion": "Tipo de lugar de residencia",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Urbano"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Rural"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "43",
+      "variable": "V103",
+      "descripcion": "Lugar de residencia de la infancia",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:4",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Capital, gran ciudad"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Ciudad"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Pueblo"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Campo"
+        },
+        {
+          "valor": "4",
+          "descripcion": "En el extranjero"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "44",
+      "variable": "V104",
+      "descripcion": "Cuanto tiempo tiene viviendo continuamente en el lugar de residencia actual",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0:49, 95:96",
+      "alternativas": [
+        {
+          "valor": "95",
+          "descripcion": "Siempre"
+        },
+        {
+          "valor": "96",
+          "descripcion": "Visitante"
+        },
+        {
+          "valor": "97",
+          "descripcion": "Inconsistente"
+        },
+        {
+          "valor": "98",
+          "descripcion": "No sabe"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "45",
+      "variable": "V105",
+      "descripcion": "Tipo de lugar de residencia anteriormente",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:4",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Capital, gran ciudad"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Ciudad"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Pueblo"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Campo"
+        },
+        {
+          "valor": "4",
+          "descripcion": "En el extranjero"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "46",
+      "variable": "V106",
+      "descripcion": "Nivel educativo más alto",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": "0:3",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Sin educación"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Primario"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Secundario"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Superior"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "47",
+      "variable": "V107",
+      "descripcion": "Añolgrado de educación más alto aprobado",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0:6",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "48",
+      "variable": "V113",
+      "descripcion": "Fuente principal de abasteciemiento de agua potable que utilizan en su hogar para tomar o beber",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "11:13, 21-22, 41:43, 51, 61, 71, 96",
+      "alternativas": [
+        {
+          "valor": "11",
+          "descripcion": "Dentro de la vivienda"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Fuera de la vivienda, pero dentro del edificio"
+        },
+        {
+          "valor": "13",
+          "descripcion": "Pilón/Grifo público"
+        },
+        {
+          "valor": "21",
+          "descripcion": "Pozo en la casa/patio/lote"
+        },
+        {
+          "valor": "22",
+          "descripcion": "Pozo Público"
+        },
+        {
+          "valor": "41",
+          "descripcion": "Manantial (puquio)"
+        },
+        {
+          "valor": "42",
+          "descripcion": "Rio/Acaquia/Laguna"
+        },
+        {
+          "valor": "51",
+          "descripcion": "Agua de lluvia"
+        },
+        {
+          "valor": "61",
+          "descripcion": "Camión tanque/Aquatero"
+        },
+        {
+          "valor": "71",
+          "descripcion": "Agua embotellada"
+        },
+        {
+          "valor": "96",
+          "descripcion": "Otro"
+        },
+        {
+          "valor": "97",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "49",
+      "variable": "V115",
+      "descripcion": "Tiempo para llegar a la fuente de agua",
+      "tipo_caracter": "N",
+      "longitud": "3",
+      "rango": "1:240, 996:998",
+      "alternativas": [
+        {
+          "valor": "996",
+          "descripcion": "En los lugares"
+        },
+        {
+          "valor": "997",
+          "descripcion": "No residente de jure"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "50",
+      "variable": "V116",
+      "descripcion": "Tipo de instalación sanitaria",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "11:12, 21:24, 31:32, 96:97",
+      "alternativas": [
+        {
+          "valor": "11",
+          "descripcion": "Vivienda interior"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Vivienda exterior"
+        },
+        {
+          "valor": "21",
+          "descripcion": "Letrina ventilada"
+        },
+        {
+          "valor": "22",
+          "descripcion": "Pozo séptico"
+        },
+        {
+          "valor": "23",
+          "descripcion": "Latrina (ciego o negro)"
+        },
+        {
+          "valor": "24",
+          "descripcion": "Latrina sobre el rioilago"
+        },
+        {
+          "valor": "31",
+          "descripcion": "Rio, canal"
+        },
+        {
+          "valor": "32",
+          "descripcion": "Sin servicio"
+        },
+        {
+          "valor": "96",
+          "descripcion": "Otro"
+        },
+        {
+          "valor": "97",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "51",
+      "variable": "V119",
+      "descripcion": "En su hogar tiene electricidad",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "52",
+      "variable": "V120",
+      "descripcion": "En su hogar tiene: radio",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "S"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "53",
+      "variable": "V121",
+      "descripcion": "En su hogar tiene televisión",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "54",
+      "variable": "V122",
+      "descripcion": "En su hogar tiene: refrigerador",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "55",
+      "variable": "V123",
+      "descripcion": "En su hogar tiene bicicleta",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "56",
+      "variable": "V124",
+      "descripcion": "En su hogar tiene: motocicleta/motocar",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "57",
+      "variable": "V125",
+      "descripcion": "En su hogar tiene: coche/camión",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "S"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "58",
+      "variable": "V127",
+      "descripcion": "Material predominante del piso de la vivienda",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "11, 21, 31:34, 96:97",
+      "alternativas": [
+        {
+          "valor": "11",
+          "descripcion": "Tierra/arena"
+        },
+        {
+          "valor": "21",
+          "descripcion": "Madera (entablados)"
+        },
+        {
+          "valor": "31",
+          "descripcion": "Parquet o madera pulida"
+        },
+        {
+          "valor": "32",
+          "descripcion": "Láminas asfálticas, vinilicos o similares"
+        },
+        {
+          "valor": "33",
+          "descripcion": "Losetas, terrazos o similares"
+        },
+        {
+          "valor": "34",
+          "descripcion": "Cemento/ladrillo"
+        },
+        {
+          "valor": "96",
+          "descripcion": "Pona"
+        },
+        {
+          "valor": "97",
+          "descripcion": "Otro(pona)"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "59",
+      "variable": "V128",
+      "descripcion": "Material predominante de las paredes exteriores de la vivienda",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "11:13, 21:24, 31:33, 41, 96:97",
+      "alternativas": [
+        {
+          "valor": "11",
+          "descripcion": "Tablones/madera"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Estera"
+        },
+        {
+          "valor": "13",
+          "descripcion": "Caña/bambu/pona/palma troncos/tabique"
+        },
+        {
+          "valor": "21",
+          "descripcion": "Adobe o tapia tarrajeados"
+        },
+        {
+          "valor": "22",
+          "descripcion": "Quincha (caña con barro)"
+        },
+        {
+          "valor": "23",
+          "descripcion": "Piedra con barпо"
+        },
+        {
+          "valor": "24",
+          "descripcion": "Cartón"
+        },
+        {
+          "valor": "31",
+          "descripcion": "Ladrillo o /Bloques de cemento"
+        },
+        {
+          "valor": "32",
+          "descripcion": "Piedra o sillar con cal o cemento"
+        },
+        {
+          "valor": "33",
+          "descripcion": "Tripley"
+        },
+        {
+          "valor": "41",
+          "descripcion": "Sin paredes"
+        },
+        {
+          "valor": "96",
+          "descripcion": "Otro"
+        },
+        {
+          "valor": "97",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "60",
+      "variable": "V129",
+      "descripcion": "Material predominante del techo de la vivienda",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "11:12, 21:22, 31:34, 41, 96:97",
+      "alternativas": [
+        {
+          "valor": "11",
+          "descripcion": "Paja, hojas de palmera efc"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Estera"
+        },
+        {
+          "valor": "21",
+          "descripcion": "Caña o estera con torta de barro"
+        },
+        {
+          "valor": "22",
+          "descripcion": "Cartón"
+        },
+        {
+          "valor": "31",
+          "descripcion": "Concreto armado"
+        },
+        {
+          "valor": "32",
+          "descripcion": "Madera"
+        },
+        {
+          "valor": "33",
+          "descripcion": "Tejas"
+        },
+        {
+          "valor": "34",
+          "descripcion": "Plancha de calamina, fibra de cemento o similares"
+        },
+        {
+          "valor": "41",
+          "descripcion": "Sin techo"
+        },
+        {
+          "valor": "96",
+          "descripcion": "Otro"
+        },
+        {
+          "valor": "97",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "61",
+      "variable": "V130",
+      "descripcion": "Religión",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "62",
+      "variable": "V131",
+      "descripcion": "Etnicidad",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "1:12",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Quechua"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Aimara"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Ashaninka"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Awajūry Aguaruna"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Shipibo/Konibo"
+        },
+        {
+          "valor": "6",
+          "descripcion": "Shawi/Chayahuita"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Matsigenka/ Machiguenga"
+        },
+        {
+          "valor": "8",
+          "descripcion": "Achuar"
+        },
+        {
+          "valor": "9",
+          "descripcion": "Otra lengua nativa u originaria"
+        },
+        {
+          "valor": "10",
+          "descripcion": "Castellano"
+        },
+        {
+          "valor": "11",
+          "descripcion": "Portugués"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Otra lengua extranjera"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "63",
+      "variable": "V133",
+      "descripcion": "Educación en años simples",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0:18",
+      "alternativas": [
+        {
+          "valor": "97",
+          "descripcion": "Inconsistente"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "64",
+      "variable": "V134",
+      "descripcion": "El lugar en el que se realizó la entrevista De-facto",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:3",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Capital, ciudad grande"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Ciudad pequeña"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Pueblo"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Campo"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "65",
+      "variable": "V135",
+      "descripcion": "Residente habitual o visitante",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Residente habitual"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Visitante"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "66",
+      "variable": "V136",
+      "descripcion": "Número de miembros del hogar",
+      "tipo_caracter": null,
+      "longitud": null,
+      "rango": "1:24",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "67",
+      "variable": "V137",
+      "descripcion": "Número de niños de 6 años de edad",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0:10",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "68",
+      "variable": "V138",
+      "descripcion": "Número de mujeres de 15 a 49 años de edad elegibles en el hogar",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "1:24",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "69",
+      "variable": "V139",
+      "descripcion": "Región, residencia habitual De jure",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "0:25, 97",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "En el extranjero"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Amazonas"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Ancash"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Apurimac"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Arequipa"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Ayacucho"
+        },
+        {
+          "valor": "6",
+          "descripcion": "Cajamarca"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Callao"
+        },
+        {
+          "valor": "8",
+          "descripcion": "Cusco"
+        },
+        {
+          "valor": "9",
+          "descripcion": "Huancavelica"
+        },
+        {
+          "valor": "10",
+          "descripcion": "Huanuco"
+        },
+        {
+          "valor": "11",
+          "descripcion": "Ica"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Junin"
+        },
+        {
+          "valor": "13",
+          "descripcion": "La Libertad"
+        },
+        {
+          "valor": "14",
+          "descripcion": "Lambayeque"
+        },
+        {
+          "valor": "15",
+          "descripcion": "Lima"
+        },
+        {
+          "valor": "16",
+          "descripcion": "Loreto"
+        },
+        {
+          "valor": "17",
+          "descripcion": "Madre de Dios"
+        },
+        {
+          "valor": "18",
+          "descripcion": "Moquegua"
+        },
+        {
+          "valor": "19",
+          "descripcion": "Pasco"
+        },
+        {
+          "valor": "20",
+          "descripcion": "Piura"
+        },
+        {
+          "valor": "21",
+          "descripcion": "Puno"
+        },
+        {
+          "valor": "22",
+          "descripcion": "San Martin"
+        },
+        {
+          "valor": "23",
+          "descripcion": "Tacna"
+        },
+        {
+          "valor": "24",
+          "descripcion": "Tumbes"
+        },
+        {
+          "valor": "25",
+          "descripcion": "Ucayali"
+        },
+        {
+          "valor": "97",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "70",
+      "variable": "V140",
+      "descripcion": "Tipo de área de residencia De-jure",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2,7",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Area urbana"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Area rural"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "71",
+      "variable": "V141",
+      "descripcion": "Lugar de residencia De-jure",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:3,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Capital, ciudad grande"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Ciudad pequeña"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Pueblo"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Campo"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "72",
+      "variable": "V149",
+      "descripcion": "Logro educativo",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:5",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Sin educación"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Primaria incompleta"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Primaria completa"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Secundaria incompleta"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Secundaria completa"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Superior"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "73",
+      "variable": "V150",
+      "descripcion": "Relación con el jefe del hogar",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "1:12, 15, 98",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Jefe del hogar"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Esposa/esposo"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Hijo/Hija"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Yerno/Nuera"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Nieto/Nieta"
+        },
+        {
+          "valor": "6",
+          "descripcion": "Padre/Madre"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Suegro/Suegra"
+        },
+        {
+          "valor": "8",
+          "descripcion": "Hermano/a"
+        },
+        {
+          "valor": "9",
+          "descripcion": "Conviviente"
+        },
+        {
+          "valor": "10",
+          "descripcion": "Otro pariente"
+        },
+        {
+          "valor": "11",
+          "descripcion": "Hijo adoptado/hijo de crianza"
+        },
+        {
+          "valor": "12",
+          "descripcion": "Sin parentesco"
+        },
+        {
+          "valor": "15",
+          "descripcion": "Empleada doméstica"
+        },
+        {
+          "valor": "98",
+          "descripcion": "No sabe"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "74",
+      "variable": "V151",
+      "descripcion": "Sexo del Jefe del Hogar",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Hombre"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Mujer"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "75",
+      "variable": "V152",
+      "descripcion": "Edad del jefe del hogar",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "15:98",
+      "alternativas": [
+        {
+          "valor": "97",
+          "descripcion": "97+"
+        },
+        {
+          "valor": "98",
+          "descripcion": "NS"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "76",
+      "variable": "V153",
+      "descripcion": "En su hogar tiene teléfono",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "77",
+      "variable": "AWFACTT",
+      "descripcion": "Factor todas las mujeres-total",
+      "tipo_caracter": "N",
+      "longitud": "5",
+      "rango": "100",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "78",
+      "variable": "AWFACTU",
+      "descripcion": "Factor todas las mujeres-urbano/rural",
+      "tipo_caracter": "N",
+      "longitud": "5",
+      "rango": "100",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "79",
+      "variable": "AWFACTR",
+      "descripcion": "Factor todas las mujeres regional",
+      "tipo_caracter": "N",
+      "longitud": "5",
+      "rango": "100",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "80",
+      "variable": "AWFACTE",
+      "descripcion": "Factor todas las mujeres educación",
+      "tipo_caracter": "N",
+      "longitud": "5",
+      "rango": "100",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "81",
+      "variable": "AWFACTW",
+      "descripcion": "Factor todas las mujeres indice de riqueza",
+      "tipo_caracter": "N",
+      "longitud": "5",
+      "rango": "100",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "82",
+      "variable": "V155",
+      "descripcion": "Alfabetización",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0-4",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No puede leer"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Puede leer solo parte de la frase"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Puede leer la frase"
+        },
+        {
+          "valor": "3",
+          "descripcion": "No hay tarjeta en el idioma requerido"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Ciega/problemas visuales"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "83",
+      "variable": "V156",
+      "descripcion": "Alguna vez participó en un programa de alfabetización (no incluyendo la escuela primaria)",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": "0:1",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "S"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "84",
+      "variable": "V157",
+      "descripcion": "Frecuencia de lectura de un periódico o revista",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:3",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Nunca"
+        },
+        {
+          "valor": "1",
+          "descripcion": "De vez en cuando"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Una vez por semana"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Casi todos los dias"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "85",
+      "variable": "V158",
+      "descripcion": "Frecuencia de escuchar radio.",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:3",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Nunca"
+        },
+        {
+          "valor": "1",
+          "descripcion": "De vez en cuando"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Una vez por semana"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Casi todos los dias"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "86",
+      "variable": "V159",
+      "descripcion": "Frecuencia de ver televisión",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:3",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Nunca"
+        },
+        {
+          "valor": "1",
+          "descripcion": "De vez en cuando"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Una vez por semana"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Casi todos los dias"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "87",
+      "variable": "V160",
+      "descripcion": "Baño compartido con otros hogares",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "0:1,7",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "No"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "7",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "88",
+      "variable": "V161",
+      "descripcion": "Tipo de combustible para cocinar",
+      "tipo_caracter": "N",
+      "longitud": "2",
+      "rango": "1-11, 95:97",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Electricidad"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Gas Licuado (GLP)"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Gas natural (Tuberia)"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Kerosene"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Carbón mineral"
+        },
+        {
+          "valor": "6",
+          "descripcion": "Carbon vegetal"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Leña"
+        },
+        {
+          "valor": "8",
+          "descripcion": "Cañas/Arbustos (secos)"
+        },
+        {
+          "valor": "9",
+          "descripcion": "Residuos agricolas"
+        },
+        {
+          "valor": "10",
+          "descripcion": "Bosta"
+        },
+        {
+          "valor": "11",
+          "descripcion": "Bosta"
+        },
+        {
+          "valor": "95",
+          "descripcion": "No cocina"
+        },
+        {
+          "valor": "96",
+          "descripcion": "Otro"
+        },
+        {
+          "valor": "97",
+          "descripcion": "No es residente habitual"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "89",
+      "variable": "V166",
+      "descripcion": "Resultados de la prueba del yodo en la sal",
+      "tipo_caracter": "N",
+      "longitud": "3",
+      "rango": "0, 7, 15, 30, 994:995, 997",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Sin coloración 0 ppm (sin yodo)"
+        },
+        {
+          "valor": "7",
+          "descripcion": "Coloración tenue-7 ppm"
+        },
+        {
+          "valor": "15",
+          "descripcion": "Coloración azul o morado-15 ppm"
+        },
+        {
+          "valor": "30",
+          "descripcion": "Coloración morado oscuro-30 ppm a más"
+        },
+        {
+          "valor": "994",
+          "descripcion": "No se pudo realizar la prueba"
+        },
+        {
+          "valor": "995",
+          "descripcion": "No hay sal en el hogar"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "90",
+      "variable": "V167",
+      "descripcion": "Nümero de viajes en los últimos 12 meses",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "91",
+      "variable": "V168",
+      "descripcion": "Afuera más de un mes en los últimos 12 meses",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "92",
+      "variable": "ML101",
+      "descripcion": "Tipo de mosquitero que utilizo para dormir ültima noche",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "93",
+      "variable": "QD333 1",
+      "descripcion": "Alguna dificultad o limitación permanente para ver, aún usando anteojos",
+      "tipo_caracter": "N",
+      "longitud": null,
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "2",
+          "descripcion": "No"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "94",
+      "variable": "QD333 2",
+      "descripcion": "Alguna dificultad o limitación permanente para oir, aün usando audifonos",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "2",
+          "descripcion": "No"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "95",
+      "variable": "QD333 3",
+      "descripcion": "Alguna dificultad o limitación permanente para hablar o comunicarse, aún usando la lengua de señas u otro",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "2",
+          "descripcion": "No"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "96",
+      "variable": "QD333 4",
+      "descripcion": "Alguna dificultad o limitación permanente para moverse o caminar para usar brazos y/o piernas",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "2",
+          "descripcion": "No"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "97",
+      "variable": "QD333 5",
+      "descripcion": "Alguna dificultad o limitación permanente para entender o aprender (concentrarse y recordarse)",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "S"
+        },
+        {
+          "valor": "2",
+          "descripcion": "No"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "98",
+      "variable": "QD333 6",
+      "descripcion": "Alguna dificultad o limitación permanente para relacionarse con los demás, por sus pensamientos, sentimientos, emociones o conductas",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:2",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "Si"
+        },
+        {
+          "valor": "2",
+          "descripcion": "No"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "99",
+      "variable": "UBIGEO",
+      "descripcion": "Código de Ubicación Gegráfica",
+      "tipo_caracter": "A",
+      "longitud": "E",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "100",
+      "variable": "V022",
+      "descripcion": "Estratos",
+      "tipo_caracter": "N",
+      "longitud": "8",
+      "rango": "1:250",
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "101",
+      "variable": "V005",
+      "descripcion": "Factor de ponderacion",
+      "tipo_caracter": "N",
+      "longitud": "8",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "102",
+      "variable": "V190",
+      "descripcion": "Indice de riqueza",
+      "tipo_caracter": "N",
+      "longitud": "1",
+      "rango": "1:5",
+      "alternativas": [
+        {
+          "valor": "1",
+          "descripcion": "El más pobre"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Pobre"
+        },
+        {
+          "valor": "3",
+          "descripcion": "Medio"
+        },
+        {
+          "valor": "4",
+          "descripcion": "Rico"
+        },
+        {
+          "valor": "5",
+          "descripcion": "Más rico"
+        }
+      ],
+      "observacion": null
+    },
+    {
+      "numero_fila": "103",
+      "variable": "V191",
+      "descripcion": "Factor de puntuación del indice de riqueza (5 decimales)",
+      "tipo_caracter": "N",
+      "longitud": "8",
+      "rango": null,
+      "alternativas": null,
+      "observacion": null
+    },
+    {
+      "numero_fila": "104",
+      "variable": "mujeres 12a49",
+      "descripcion": "Mujeres de 12 a 49 años de edad",
+      "tipo_caracter": "N",
+      "longitud": "8",
+      "rango": "0:2",
+      "alternativas": [
+        {
+          "valor": "0",
+          "descripcion": "Mujeres de 12 a 14 de edad, nunca embarazadas"
+        },
+        {
+          "valor": "1",
+          "descripcion": "Mujeres de 12 a 49 de edad, alguna vez emabrazadas"
+        },
+        {
+          "valor": "2",
+          "descripcion": "Mujeres de 15 a 49 años de edad"
+        }
+      ],
+      "observacion": null
+    }
+  ]
+}

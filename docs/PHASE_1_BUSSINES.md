@@ -72,7 +72,7 @@ Se seleccionará un conjunto reducido (aprox. 5–10) de predictores fuertes e i
 - **Prioridad 2 (Si el tiempo permite):** Random Forest (buen rendimiento y permite ver "Importancia de Características").
 
 ```mermaid
-flowchart TD
+graph TD
     A["<b>1. Comprensión</b><br>Definir MVP<br><i>(¡Hecho!)</i>"] --> B("<b>2. Datos Rápida</b><br>Cargar CSVs clave<br>Localizar ~10 vars")
     B --> C("<b>3. Preparación Enfocada</b><br>Join tablas<br>Limpieza básica<br>Crear Target (HAZ < -2)<br>Codificar Features")
     C --> D("<b>4. Modelado Eficiente</b><br>Split Datos<br>Entrenar LogReg<br>Evaluar<br><i>(Opc: RF)</i>")
@@ -99,6 +99,7 @@ flowchart TD
     class F fase6;
     class C_Mod revision;
 ```
+
 ## 3. Evaluación de la Situación
 
 ### Recursos y Activos Clave
@@ -106,8 +107,9 @@ flowchart TD
 Para definir los objetivos técnicos del proyecto, se realizó un análisis del estado del arte utilizando Scopus AI. El informe resultante (`Medición de la desnutrición crónica infantil.pdf`) se considera un recurso fundamental.
 
 Los hallazgos clave de este informe que guían el proyecto son:
+
 - **Definición del Target:** La desnutrición crónica (stunting) se mide usando el puntaje Z de Talla para la Edad (HAZ) de la OMS, con un punto de corte de `HAZ < -2`.
 - **Predictores Clave (Features):** El informe identificó como predictores más fuertes:
-    - **Maternos:** Estatura y Nivel Educativo.
-    - **Niño:** Edad y Peso al Nacer.
-    - **Hogar:** Riqueza y Saneamiento/Agua.
+  - **Maternos:** Estatura y Nivel Educativo.
+  - **Niño:** Edad y Peso al Nacer.
+  - **Hogar:** Riqueza y Saneamiento/Agua.

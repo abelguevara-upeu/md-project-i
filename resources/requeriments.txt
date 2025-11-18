@@ -8,3 +8,6 @@ lightgbm
 catboost
 tabulate
 imbalanced-learn
+
+streamlit
+joblib
