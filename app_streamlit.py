@@ -113,7 +113,9 @@ def predictor_page(model_obj, best_estimator, metadata, categories):
         elif talla_madre_cm >= 150:
             st.success("✅ Talla adecuada")
 
-        st.markdown("### 🏠 Características del Hogar")
+    # Separador visual antes de características del hogar
+    st.markdown("---")
+    st.markdown("### 🏠 Características del Hogar")
 
     # Características categóricas
     cat_values = {}
@@ -299,6 +301,14 @@ def analytics_page():
         # Cargar correlación
         if os.path.exists('notebooks/tabla_2_correlacion.csv'):
             corr_df = pd.read_csv('notebooks/tabla_2_correlacion.csv', index_col=0)
+
+            # Renombrar columnas e índices para mayor claridad
+            labels_mapping = {
+                'V106': 'V106 (Educación Madre)',
+                'HV270': 'HV270 (Riqueza)',
+                'HV025': 'HV025 (Zona)'
+            }
+            corr_df = corr_df.rename(columns=labels_mapping, index=labels_mapping)
 
             # Heatmap
             fig_corr = px.imshow(corr_df,
