@@ -11,3 +11,5 @@ imbalanced-learn
 
 streamlit
 joblib
+plotly
+statsmodels
