@@ -142,7 +142,7 @@ def predictor_page(model_obj, best_estimator, metadata, categories):
     st.markdown("---")
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        submitted = st.button('🔍 Realizar Predicción', type='primary', use_container_width=True)
+        submitted = st.button('🔍 Realizar Predicción', type='primary', width='stretch')
 
     if submitted:
         row = {
@@ -188,7 +188,7 @@ def predictor_page(model_obj, best_estimator, metadata, categories):
                 }
             ))
             fig.update_layout(height=300)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
 
             # Resultado final con estilo
             col1, col2, col3 = st.columns(3)
@@ -237,7 +237,7 @@ def predictor_page(model_obj, best_estimator, metadata, categories):
             # Detalles técnicos
             with st.expander('🔬 Ver detalles técnicos'):
                 st.write("**Datos de entrada:**")
-                st.dataframe(X.T, use_container_width=True)
+                st.dataframe(X.T, width='stretch')
                 st.write("**Resultado del modelo:**")
                 st.json({
                     'probabilidad_clase_1': float(proba),
@@ -277,7 +277,7 @@ def analytics_page():
                                    color_discrete_sequence=['#636EFA'])
             fig_haz.add_vline(x=-2, line_dash="dash", line_color="red",
                             annotation_text="Umbral Desnutrición (-2 SD)")
-            st.plotly_chart(fig_haz, use_container_width=True)
+            st.plotly_chart(fig_haz, width='stretch')
 
             # Estadísticas
             st.metric("Media HAZ Score", f"{df['haz_score'].mean():.2f}")
@@ -290,7 +290,7 @@ def analytics_page():
                                    title='Distribución de Edad (meses)',
                                    labels={'edad_meses': 'Edad (meses)'},
                                    color_discrete_sequence=['#EF553B'])
-            st.plotly_chart(fig_edad, use_container_width=True)
+            st.plotly_chart(fig_edad, width='stretch')
 
             st.metric("Edad Media", f"{df['edad_meses'].mean():.1f} meses")
             st.metric("Rango", f"{df['edad_meses'].min():.0f} - {df['edad_meses'].max():.0f} meses")
@@ -316,7 +316,7 @@ def analytics_page():
                                 aspect="auto",
                                 color_continuous_scale='RdBu_r',
                                 title='Correlación entre Variables')
-            st.plotly_chart(fig_corr, use_container_width=True)
+            st.plotly_chart(fig_corr, width='stretch')
 
             # Insights
             st.markdown("#### 🔍 Insights Clave:")
@@ -345,7 +345,7 @@ def analytics_page():
                             labels={'porcentaje': '% Desnutridos', 'zona': 'Zona'},
                             color='porcentaje',
                             color_continuous_scale='Reds')
-            st.plotly_chart(fig_zona, use_container_width=True)
+            st.plotly_chart(fig_zona, width='stretch')
 
         with col2:
             # Por nivel educativo madre
@@ -358,7 +358,7 @@ def analytics_page():
                                labels={'porcentaje': '% Desnutridos', 'educacion_madre': 'Nivel Educativo'},
                                color='porcentaje',
                                color_continuous_scale='Oranges')
-                st.plotly_chart(fig_edu, use_container_width=True)
+                st.plotly_chart(fig_edu, width='stretch')
 
         # Por riqueza
         if 'riqueza' in df.columns:
@@ -370,7 +370,7 @@ def analytics_page():
                            labels={'porcentaje': '% Desnutridos', 'riqueza': 'Nivel de Riqueza'},
                            color='porcentaje',
                            color_continuous_scale='RdYlGn_r')
-            st.plotly_chart(fig_riq, use_container_width=True)
+            st.plotly_chart(fig_riq, width='stretch')
 
     with tab4:
         st.markdown("### Análisis Comparativo")
@@ -380,7 +380,7 @@ def analytics_page():
                              title='Distribución HAZ Score por Zona',
                              color='zona')
         fig_box_zona.add_hline(y=-2, line_dash="dash", line_color="red")
-        st.plotly_chart(fig_box_zona, use_container_width=True)
+        st.plotly_chart(fig_box_zona, width='stretch')
 
         # Scatter: Peso vs HAZ
         col1, col2 = st.columns(2)
@@ -392,7 +392,7 @@ def analytics_page():
                                      opacity=0.6,
                                      trendline="ols")
             fig_scatter1.add_hline(y=-2, line_dash="dash", line_color="red")
-            st.plotly_chart(fig_scatter1, use_container_width=True)
+            st.plotly_chart(fig_scatter1, width='stretch')
 
         with col2:
             fig_scatter2 = px.scatter(df.sample(min(1000, len(df))),
@@ -401,7 +401,7 @@ def analytics_page():
                                      opacity=0.6,
                                      trendline="ols")
             fig_scatter2.add_hline(y=-2, line_dash="dash", line_color="red")
-            st.plotly_chart(fig_scatter2, use_container_width=True)
+            st.plotly_chart(fig_scatter2, width='stretch')
 
 
 def main():
